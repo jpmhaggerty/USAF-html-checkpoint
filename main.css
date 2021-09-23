@@ -23,10 +23,17 @@
   gap: 10px;
 }
 
+.wrapper-sm {
+  grid-template-rows: repeat(2fr 4fr);
+  grid-template-columns: 1;
+  display: grid;
+  gap: 10px;
+}
+
 .movie-1 {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMTWLR0dGbNZmNS7jf228JQjKfP9xw4UdP_w&usqp=CAU");
   background-size: cover;
-  width: auto;
+  width: 200px;
   height: 400px;
 }
 
