@@ -11,6 +11,58 @@
 }
 
 .padder {
+  /* come back to this*/
   justify-items: center;
   padding: 10%;
+}
+
+.wrapper {
+  grid-template-rows: repeat(4, 4fr);
+  grid-template-columns: repeat(4, 4fr);
+  display: grid;
+  gap: 10px;
+}
+
+.movie-1 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMTWLR0dGbNZmNS7jf228JQjKfP9xw4UdP_w&usqp=CAU");
+  background-size: cover;
+  width: auto;
+  height: 400px;
+}
+
+.movie-2 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMTWLR0dGbNZmNS7jf228JQjKfP9xw4UdP_w&usqp=CAU");
+  background-size: cover;
+  width: auto;
+  height: 400px;
+}
+.movie-3 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMTWLR0dGbNZmNS7jf228JQjKfP9xw4UdP_w&usqp=CAU");
+  background-size: cover;
+  width: auto;
+  height: 400px;
+}
+.movie-4 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMTWLR0dGbNZmNS7jf228JQjKfP9xw4UdP_w&usqp=CAU");
+  background-size: cover;
+  width: auto;
+  height: 400px;
+}
+.movie-5 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMTWLR0dGbNZmNS7jf228JQjKfP9xw4UdP_w&usqp=CAU");
+  background-size: cover;
+  width: auto;
+  height: 400px;
+}
+
+factoids {
+}
+
+#navbar-return {
+  background-color: rgb(138, 139, 139);
+  margin-top: 1%;
+}
+
+#nav-return-text {
+  color: yellow;
 }
